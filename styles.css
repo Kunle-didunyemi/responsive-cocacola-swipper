@@ -127,7 +127,7 @@ header .navigation li a {
   background-position: center;
   background-size: cover;
   width: 180px;
-  height: 500px;
+  height: 460px;
   display: flex;
   justify-content: center;
 }
@@ -137,7 +137,7 @@ header .navigation li a {
   bottom: 0;
   display: block;
   width: 100%;
-  min-height: 100%;
+  max-height: 100%;
 }
 .content .imgBox {
   width: 500px;
@@ -146,4 +146,8 @@ header .navigation li a {
 }
 .content .imgBox img {
   max-width: 150px;
+}
+.swiper-3d .swiper-slide-shadow-left,
+.swiper-3d .swiper-slide-shadow-right {
+  background-image: none;
 }
